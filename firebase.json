@@ -2,8 +2,7 @@
   "functions": {
     "source": "api",
     "predeploy": [
-      "npm --prefix \"$RESOURCE_DIR\" run lint",
-      "npm --prefix \"$RESOURCE_DIR\" run build"
+      "yarn workspace api build"
     ]
   }
 }
