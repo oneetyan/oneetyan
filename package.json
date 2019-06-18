@@ -4,6 +4,6 @@
   "main": "index.js",
   "repository": "ssh://git@github.com/oneetyan/oneetyan",
   "author": "aereal <aereal@aereal.org>",
-  "license": "MIT",
+  "license": "Unlicense",
   "private": true
 }
