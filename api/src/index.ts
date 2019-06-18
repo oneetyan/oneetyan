@@ -1,8 +1,10 @@
-import * as functions from 'firebase-functions';
+import { region } from "firebase-functions";
+import admin from "firebase-admin";
 
-// // Start writing Firebase Functions
-// // https://firebase.google.com/docs/functions/typescript
-//
-// export const helloWorld = functions.https.onRequest((request, response) => {
-//  response.send("Hello from Firebase!");
-// });
+admin.initializeApp();
+
+export const api = region("asia-northeast1").https.onRequest(
+  async (_, res): Promise<void> => {
+    res.send({ ok: true, ane: [] });
+  }
+);
