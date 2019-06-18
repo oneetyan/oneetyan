@@ -1,0 +1,9 @@
+{
+  "name": "oneetyan",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/oneetyan/oneetyan",
+  "author": "aereal <aereal@aereal.org>",
+  "license": "MIT",
+  "private": true
+}
