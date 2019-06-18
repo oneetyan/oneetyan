@@ -1,0 +1,8 @@
+{
+  "functions": {
+    "source": "api",
+    "predeploy": [
+      "yarn workspace api build"
+    ]
+  }
+}

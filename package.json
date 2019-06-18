@@ -8,5 +8,8 @@
   "private": true,
   "workspaces": [
     "api"
-  ]
+  ],
+  "devDependencies": {
+    "firebase-tools": "^7.0.0"
+  }
 }
