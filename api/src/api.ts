@@ -18,13 +18,14 @@ const createHandler = (db: Firestore): Express => {
 
   app.get(
     "/ane",
-    async (req, res): Promise<void> => {
-      const refs = await db
-        .collection("oneetyans")
-        .limit(10)
-        .get();
-      const records = refs.docs.map(d => d.data());
-      res.send({ ok: true, ane: records });
+    async (req, res, next): Promise<void> => {
+      try {
+        const refs = await oneetyansCollection.limit(10).get();
+        const records = refs.docs.map(doc => doc.data() as Oneetyan);
+        res.send({ ok: true, ane: records });
+      } catch (e) {
+        next(e);
+      }
     }
   );
 
