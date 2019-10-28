@@ -326,7 +326,7 @@
   resolved "https://registry.yarnpkg.com/@types/tough-cookie/-/tough-cookie-2.3.5.tgz#9da44ed75571999b65c37b60c9b2b88db54c585d"
   integrity sha512-SCcK7mvGi3+ZNz833RRjFIxrn4gI1PPR3NtuIS+6vMkvmsGjosqTJwRt5bAEFLRz+wtJMWv8+uOnZf2hi2QXTg==
 
-"@typescript-eslint/eslint-plugin@^1.10.2":
+"@typescript-eslint/eslint-plugin@1.10.2":
   version "1.10.2"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-1.10.2.tgz#552fc64cfcb19c6162190360217c945e8faa330a"
   integrity sha512-7449RhjE1oLFIy5E/5rT4wG5+KsfPzakJuhvpzXJ3C46lq7xywY0/Rjo9ZBcwrfbk0nRZ5xmUHkk7DZ67tSBKw==
@@ -345,7 +345,7 @@
     "@typescript-eslint/typescript-estree" "1.10.2"
     eslint-scope "^4.0.0"
 
-"@typescript-eslint/parser@^1.10.2":
+"@typescript-eslint/parser@1.10.2":
   version "1.10.2"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-1.10.2.tgz#36cfe8c6bf1b6c1dd81da56f88c8588f4b1a852b"
   integrity sha512-xWDWPfZfV0ENU17ermIUVEVSseBBJxKfqBcRCMZ8nAjJbfA5R7NWMZmFFHYnars5MjK4fPjhu4gwQv526oZIPQ==
@@ -1505,14 +1505,14 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-config-prettier@^5.0.0:
+eslint-config-prettier@5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-5.0.0.tgz#f7a94b2b8ae7cbf25842c36fa96c6d32cd0a697c"
   integrity sha512-c17Aqiz5e8LEqoc/QPmYnaxQFAHTx2KlCZBPxXXjEMmNchOLnV/7j0HoPZuC+rL/tDC9bazUYOKJW9bOhftI/w==
   dependencies:
     get-stdin "^6.0.0"
 
-eslint-plugin-prettier@^3.1.0:
+eslint-plugin-prettier@3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-3.1.0.tgz#8695188f95daa93b0dc54b249347ca3b79c4686d"
   integrity sha512-XWX2yVuwVNLOUhQijAkXz+rMPPoCr7WFiAl8ig6I7Xn+pPVhDhzg4DxHpmbeb0iqjO9UronEA3Tb09ChnFVHHA==
@@ -1537,7 +1537,7 @@ eslint-visitor-keys@^1.0.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#3f3180fb2e291017716acb4c9d6d5b5c34a6a81d"
   integrity sha512-qzm/XxIbxm/FHyH341ZrbnMUpe+5Bocte9xkmFMzPMjRaZMcXww+MpBptFvtU+79L362nqiLhekCxCxDPaUMBQ==
 
-eslint@^5.16.0:
+eslint@5.16.0:
   version "5.16.0"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-5.16.0.tgz#a1e3ac1aae4a3fbd8296fcf8f7ab7314cbb6abea"
   integrity sha512-S3Rz11i7c8AA5JPv7xAH+dOyq/Cu/VXHiHXBPOU1k/JAM5dXqQPt3qcrhpHSorXmrpu2g0gkIBVXAqCpzfoZIg==
@@ -1853,7 +1853,7 @@ finalhandler@1.1.2, finalhandler@~1.1.2:
     statuses "~1.5.0"
     unpipe "~1.0.0"
 
-firebase-admin@^8.0.0:
+firebase-admin@8.1.0:
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/firebase-admin/-/firebase-admin-8.1.0.tgz#0f4dcf3a487a4e4f45866371b7f764f6b001a2e1"
   integrity sha512-8En6S2yJhZjHIz+n6qzzHPYj6FFM55D8C13hu3XTJQnWmKoSHiP435SOg5FTXGRd3ymhXgHYmHe2pnynpLwMiw==
@@ -1868,7 +1868,7 @@ firebase-admin@^8.0.0:
     "@google-cloud/firestore" "^2.0.0"
     "@google-cloud/storage" "^2.5.0"
 
-firebase-functions@^3.0.0:
+firebase-functions@3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/firebase-functions/-/firebase-functions-3.0.1.tgz#40aaa528d7ca092596ac63f802c2d3dd17db15d8"
   integrity sha512-ByVuJXQcV6dvOlbNWdPq9JfIuAiwJgQwevFkuRf1OepUqH1eIMtu16bXl5s/gTODvUSHyiYEIMYeCG4hekOmtg==
@@ -1882,7 +1882,7 @@ firebase-functions@^3.0.0:
     jsonwebtoken "^8.3.2"
     lodash "^4.6.1"
 
-firebase-tools@^7.0.0:
+firebase-tools@7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/firebase-tools/-/firebase-tools-7.0.0.tgz#55f34115c0bbf53a4b86a637601a1359315f89e0"
   integrity sha512-NU3IKKOZ6taJ6Ndk/Yebb7IwyrnbPGxfLqyMY7GabI16GpSbwnV8LA2cBxt4upLnUsXcJOzTESYaomp75/RMBw==
@@ -3654,7 +3654,7 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@^1.18.2:
+prettier@1.18.2:
   version "1.18.2"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.18.2.tgz#6823e7c5900017b4bd3acf46fe9ac4b4d7bda9ea"
   integrity sha512-OeHeMc0JhFE9idD4ZdtNibzY0+TPHSpSSb9h8FqtP+YnoZZ1sl8Vc9b1sasjfymH3SonAF4QcA2+mzHPhMvIiw==
@@ -4599,7 +4599,7 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@^3.2.2:
+typescript@3.5.2:
   version "3.5.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.5.2.tgz#a09e1dc69bc9551cadf17dba10ee42cf55e5d56c"
   integrity sha512-7KxJovlYhTX5RaRbUdkAXN1KUZ8PwWlTzQdHV6xNqvuFOs7+WBo10TQUqT19Q/Jz2hk5v9TQDIhyLhhJY4p5AA==
